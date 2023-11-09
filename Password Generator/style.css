@@ -1,0 +1,80 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  .container{
+    
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid #333;
+    border-radius: 10px;
+    width:100%;
+    padding:20px;
+    box-shadow: 0px 0px 20px rgb(0, 0, 0,0.2);
+    max-width:600px;
+    margin:0 auto;
+    
+  }
+  body{
+    background: linear-gradient(45deg, #ff6b6b, #7c5ad9);
+    animation: gradientBG 5s infinite;
+    background-size: 400% 400%;
+    width: 300px;
+    height:100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left:40%;
+  }
+    @keyframes gradientBG {
+        0% {
+            background-position: 0% 50%;
+        }
+        50% {
+            background-position: 100% 50%;
+        }
+        100% {
+            background-position: 0% 50%;
+        }
+    }
+  
+  h1{
+    font-size:24px;
+    text-align: center;
+    margin-bottom:20px;
+  }
+  label{
+    display: flex;
+    align-items: center;
+    margin: 10px 0,;
+  }
+  #password{
+    margin-top:20px;
+    font-size:24px;
+    text-align: center;
+    padding:10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+  }
+  #generate{
+    margin-top: 20px;
+    background-color: green;
+    color:white;
+    border:none;
+    border-radius: 5px;;
+    font-size:16px;margin-bottom: 20px;
+    cursor:pointer;
+  }
+  #generate:hover{
+    background-color: #3e8e41;
+  }
+  #generate{
+    margin-top:20px;
+    background-color:#4caf50;
+    color:#fff;
+    border:none;
+    border-radius:5px;
+    padding:10px;
+    font-size:16px;
+    cursor:pointer;
+  }
